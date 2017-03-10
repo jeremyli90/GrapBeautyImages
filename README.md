@@ -8,3 +8,5 @@ you must pip package under:
 pip install requests
 pip install BeautifulSoup4
 
+Step 2:
+Open the main.py and run it
