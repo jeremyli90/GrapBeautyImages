@@ -73,7 +73,7 @@ def getintonav(key,value):
 	# 创建目录
 	dirname = 'images/{0}/'.format(key)
 	if not os.path.exists(dirname):
-		os.mkdir(dirname) 
+		os.makedirs(dirname) 
 	downcurpage(dirname,value)
 	
 
